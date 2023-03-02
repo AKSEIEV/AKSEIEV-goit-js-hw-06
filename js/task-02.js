@@ -40,12 +40,12 @@ ingredienItem6.classList.add('item');
 console.log(ingredienItem6); 
 
 
-const ul = document.querySelector('ul#ingredients');
-console.log(ul);
+const navEl = document.querySelector('ul#ingredients');
+console.log(navEl);
 
-const power = ul.after(ingredienItem, ingredienItem2, ingredienItem3, ingredienItem4, ingredienItem5, ingredienItem6);
-
-ul.appendChild(ingredienItem) // як БЛЯТЬ ВСІ ДОБАВИТИ СЮДА сукааааааааааааааа
+navEl.append(ingredienItem,
+  ingredienItem2, ingredienItem3,
+  ingredienItem4, ingredienItem5, ingredienItem6);
 
 
 
